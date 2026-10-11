@@ -1,0 +1,18 @@
+{
+  "name": "langgraph-chatbot-graph",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Учебный граф LangGraph (TypeScript): interrupt, ветвление по интенту, два инструмента",
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@langchain/langgraph": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
